@@ -1,10 +1,10 @@
 load 'deploy' if respond_to?(:namespace) # cap2 differentiator
 
 set :application, "shitei"
-set :deploy_to, "/home/hormigon/shitei"
+set :deploy_to, "/home/hormigon/undercover"
 set :build_path, "build" 
 set :use_sudo, false
-set :domain, 'shitei.cooph.com.ar'
+set :domain, 'undercover.cooph.com.ar'
 set :user, 'hormigon'
 role  :app, domain
 

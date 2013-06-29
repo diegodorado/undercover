@@ -1,0 +1,23 @@
+$total-columns  : 12
+$column-width   : 5em
+$gutter-width   : 1em
+$grid-padding   : $gutter-width
+
+@import "susy"
+@import "compass"
+
+@import "partials/normalize"
+@import "partials/reset"
+@import "partials/header"
+@import "partials/footer"
+@import "sections/index"
+  
+.container
+  +container
+  img
+    max-width: 100%
+
+body
+  font-family: "Myriad Pro"
+  font-size: 16px
+  background: image_url("bg.jpg") repeat top center

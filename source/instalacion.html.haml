@@ -5,6 +5,7 @@
         .image
           %span INTALACIÓN
           %ul.gallery
-            - (1..2).each do |i|
+          %ul.gallery
+            - (1..4).each do |i|
               %li
-                %img{:rel =>"coleccion","data-glisse-big" => "http://placehold.it/450x640&text=#{i}", :src => "http://placehold.it/85x120&text=#{i}"}/
+                %img{:rel =>"coleccion","data-glisse-big" => "images/instalacion/ampliados/#{i}.jpg", :src => "images/instalacion/miniaturas/#{i}.jpg"}/

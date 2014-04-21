@@ -5,6 +5,7 @@
         .image
           %span LOOK BOOK
           %ul.gallery
-            - (1..10).each do |i|
+          %ul.gallery
+            - (1..11).each do |i|
               %li
-                %img{:rel =>"coleccion","data-glisse-big" => "http://placehold.it/450x640&text=#{i}", :src => "http://placehold.it/85x120&text=#{i}"}/
+                %img{:rel =>"coleccion","data-glisse-big" => "images/look-book/ampliados/#{i}.jpg", :src => "images/look-book/miniaturas/#{i}.jpg"}/
